@@ -8,7 +8,7 @@ import ScrollToTopButton from "~/components/ScrollToTopButton/ScrollToTopButton"
 import { useTranslations } from "next-intl";
 
 export const HeroSection = () => {
-  const t = useTranslations("HomePage");
+  const t = useTranslations("HeroSection");
   return (
     <section aria-labelledby="hero-title" className={styles.section}>
       <h1 id="hero-title" className={`text-gradient ${styles.title}`}>

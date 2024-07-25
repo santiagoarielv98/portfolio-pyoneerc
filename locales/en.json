@@ -1,11 +1,52 @@
 {
-    "HomePage": {
-        "title": "Maximo Comperatore, Desarrollador Backend y de Videojuegos",
-        "subtitle": "Un desarrollador pragmático con un fuerte enfoque en la calidad en cada etapa del desarrollo.",
-        "location": "Me encuentro en Mendoza, Argentina.",
-        "availability": "Disponible para nuevos proyectos.",
-        "contact": "Contáctame",
-        "download": "Descargar Curriculum",
-        "projects": "Últimos proyectos"
+    "LanguageSwitcher": {
+        "switchLanguage": "Switch to Spanish"
+    },
+    "HeroSection": {
+        "title": "Maximo Comperatore, Backend Developer and Game Developer",
+        "subtitle": "A pragmatic developer with a strong focus on quality at every stage of development.",
+        "location": "I'm located in Mendoza, Argentina.",
+        "availability": "Available for new projects.",
+        "contact": "Contact me",
+        "download": "Download Resume"
+    },
+    "ProjectsSection": {
+        "title": "Latest Projects"
+    },
+    "AboutSection": {
+        "title": "About me",
+        "paragraphs": [
+            "Meet Máximo Comperatore, a backend developer aspirant with .NET and game development specialization.",
+            "Currently, I am studying Game Development at Universidad de Mendoza, aiming to build a solid professional career in the tech sector.",
+            "I stand out for being detail-oriented, organized, punctual, and pleasant. Moreover, I am a perseverant worker and a collaborative team member, always willing to learn and enhance my skills.",
+            "I am looking to get involved in innovative and challenging projects that allow me to expand my competencies and, at the same time, empower those who work around me."
+        ]
+    },
+    "SkillsSection": {
+        "title": "Technologies"
+    },
+    "ContactSection": {
+        "title": [
+            "Want to collaborate",
+            "on a project?"
+        ]
+    },
+    "Blog": {
+        "title": "Blog",
+        "goHome": "← Go back to the home page"
+    },
+    "PostsLayout": {
+        "greetings": "Thanks for your time. See you in the next post!",
+        "goHome": "← Go back to the Blog"
+    },
+    "Project": {
+        "goHome": "← Go back home",
+        "prev": "Previous",
+        "next": "Next"
+    },
+    "404": {
+        "title": "404",
+        "description": "Page not found",
+        "goHome": "Go back home"
     }
 }

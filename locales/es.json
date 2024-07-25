@@ -1,11 +1,52 @@
 {
-    "HomePage": {
-        "title": "Maximo Comperatore, Backend Developer and Game Developer",
-        "subtitle": "A pragmatic developer with a strong focus on quality at every stage of development.",
-        "location": "I'm located in Mendoza, Argentina.",
-        "availability": "Available for new projects.",
-        "contact": "Contact me",
-        "download": "Download Resume",
-        "projects": "Latest projects"
+    "LanguageSwitcher": {
+        "switchLanguage": "Cambiar a Inglés"
+    },
+    "HeroSection": {
+        "title": "Maximo Comperatore, Desarrollador Backend y de Videojuegos",
+        "subtitle": "Un desarrollador pragmático con un fuerte enfoque en la calidad en cada etapa del desarrollo.",
+        "location": "Me encuentro en Mendoza, Argentina.",
+        "availability": "Disponible para nuevos proyectos.",
+        "contact": "Contáctame",
+        "download": "Descargar Curriculum"
+    },
+    "ProjectsSection": {
+        "title": "Ultimos Proyectos"
+    },
+    "AboutSection": {
+        "title": "Sobre mí",
+        "paragraphs": [
+            "Conoce a Máximo Comperatore, un aspirante a desarrollador especializado en Backend con .NET y desarrollo de videojuegos.",
+            "Actualmente, estoy cursando estudios en Desarrollo de Videojuegos en la Universidad de Mendoza, con el objetivo de forjar una carrera profesional sólida en el sector tecnológico.",
+            "Destaco por ser una persona atenta al detalle, organizada, puntual y agradable. Además, soy un trabajador perseverante y miembro colaborativo de equipo, siempre dispuesto a aprender y mejorar mis habilidades.",
+            "Busco involucrarme en proyectos innovadores y desafiantes que me permitan expandir mis competencias y, al mismo tiempo, potenciar a quienes trabajan a mi alrededor."
+        ]
+    },
+    "SkillsSection": {
+        "title": "Tecnologías"
+    },
+    "ContactSection": {
+        "title": [
+            "¿Quieres colaborar",
+            "en un proyecto?"
+        ]
+    },
+    "Blog": {
+        "title": "Blog",
+        "goHome": "← Volver a la página principal"
+    },
+    "PostsLayout": {
+        "greetings": "Gracias por tu tiempo. Nos vemos en el próximo post!",
+        "goHome": "← Volver al Blog"
+    },
+    "Project": {
+        "goHome": "← Volver al inicio",
+        "prev": "Anterior",
+        "next": "Siguiente"
+    },
+    "404": {
+        "title": "404",
+        "description": "Página no encontrada",
+        "goHome": "Volver al inicio"
     }
 }

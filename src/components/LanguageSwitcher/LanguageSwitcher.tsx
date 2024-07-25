@@ -9,7 +9,7 @@ export const LanguageSwitcher = () => {
 	const locale = useLocale()
 	const [isPending, startTransition] = useTransition()
 	// const [isSpanish, setIsSpanish] = useState(locale === "es");
-	const t = useTranslations("HomePage")
+	const t = useTranslations("LanguageSwitcher")
 
 	const handleOnClick = () => {
 		// localStorage.setItem("language", isSpanish ? "en" : "es");
@@ -18,20 +18,19 @@ export const LanguageSwitcher = () => {
 			// setIsSpanish(!isSpanish);
 		})
 	}
-	console.log("isSpanish", locale)
 
 	return (
 		<button
 			className={styles.button}
 			onClick={handleOnClick}
-			title={`Cambiar a ${locale == "en" ? "Inglés" : "Español"}`}
+			title={t("switchLanguage")}
 			aria-live="polite"
 			disabled={isPending}
 		>
 			<img
 				className={styles.flag}
 				aria-hidden="true"
-				src={locale == "en" ? "/assets/icons/spain.png" : "/assets/icons/uk.png"}
+				src={locale == "es" ? "/assets/icons/spain.png" : "/assets/icons/uk.png"}
 				alt={`Switch to ${locale == "en" ? "English" : "Spanish"}`}
 				height={24}
 				width={24}
