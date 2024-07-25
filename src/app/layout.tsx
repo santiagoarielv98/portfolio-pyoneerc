@@ -6,7 +6,7 @@ import { SvgMasks } from "~/components/Svg/SvgMasks"
 import { Header } from "~/components/Header"
 
 import {NextIntlClientProvider} from 'next-intl';
-import {getLocale, getMessages} from 'next-intl/server';
+import {getMessages} from 'next-intl/server';
 
 import "~/styles/reset.css"
 import "~/styles/globals.css"
@@ -26,8 +26,6 @@ export default async function RootLayout({
 }: Readonly<{
 	children: React.ReactNode
 }>) {
-	const locale = await getLocale();
-
 	const messages = await getMessages();
 
 	return (
