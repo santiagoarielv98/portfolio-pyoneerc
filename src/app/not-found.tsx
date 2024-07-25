@@ -1,6 +1,6 @@
 import Link from "next/link"
 import { Button } from "~/components/Ui/Button"
-import { Footer } from "~/components/Footer"
+import { Footer404 } from "~/components/Footer404"
 import styles from "./not-found.module.css"
 import { useTranslations } from "next-intl"
 
@@ -19,7 +19,7 @@ export default function NotFound() {
 					<Link href="/">{t("goHome")}</Link>
 				</Button>
 			</main>
-			<Footer />
+			<Footer404 />
 		</>
 	)
 }
