@@ -48,5 +48,37 @@
         "title": "404",
         "description": "Página no encontrada",
         "goHome": "Volver al inicio"
+    },
+    "ArticleHeader": {
+        "goHome": "← Volver al Blog"
+    },
+    "ContactDialog": {
+        "title": "Contactar"
+    },
+    "ContactForm": {
+        "successMessage": "Gracias por tu mensaje ❤️, responderé lo antes posible.",
+        "labels": {
+            "name": "Nombre",
+            "email": "Correo",
+            "message": "Mensaje"
+        },
+        "placeholder": {
+            "name": "Alfredo Linux",
+            "message": "Hola Max, [Insertar Mensaje]"
+        },
+        "send": "Enviar"
+    },
+    "CopyEmailButton": {
+        "hint": "Click para copiar",
+        "toast": "¡Estaré esperando tu mensaje!"
+    },
+    "Header": {
+        "contact": "Contactar"
+    },
+    "MenuMobile": {
+        "close": "Cerrar menú",
+        "open": "Abrir menú",
+        "language": "Idioma",
+        "contact": "Contactar"
     }
 }

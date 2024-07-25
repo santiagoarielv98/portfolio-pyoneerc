@@ -48,5 +48,37 @@
         "title": "404",
         "description": "Page not found",
         "goHome": "Go back home"
+    },
+    "ArticleHeader": {
+        "goHome": "← Back to Blog"
+    },
+    "ContactDialog": {
+        "title": "Contact"
+    },
+    "ContactForm": {
+        "successMessage": "Thanks for your message ❤️, I will respond as soon as possible.",
+        "labels": {
+            "name": "Name",
+            "email": "Email",
+            "message": "Message"
+        },
+        "placeholder": {
+            "name": "Alfredo Linux",
+            "message": "Hello Max, [Insert Message]"
+        },
+        "send": "Send"
+    },
+    "CopyEmailButton": {
+        "hint": "Click to copy",
+        "toast": "I'll be waiting for your message!"
+    },
+    "Header": {
+        "contact": "Contact"
+    },
+    "MenuMobile": {
+        "close": "Close menu",
+        "open": "Open menu",
+        "language": "Language",
+        "contact": "Contact"
     }
 }
