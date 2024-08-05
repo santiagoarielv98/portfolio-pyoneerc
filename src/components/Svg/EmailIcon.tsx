@@ -18,3 +18,5 @@ export const EmailIcon = (props: SVGProps<SVGSVGElement>) => (
 		<path d="m3 7 9 6 9-6" />
 	</svg>
 )
+
+export default EmailIcon

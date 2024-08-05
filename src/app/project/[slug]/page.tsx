@@ -5,6 +5,7 @@ import { getPrevAndNextProjectSlug, getProjectBySlug } from "~/helpers/get-proje
 import { Link } from "~/components/Ui/Link"
 import styles from "./page.module.css"
 import { useTranslations } from "next-intl"
+import React from "react"
 
 interface Props {
 	params: { slug: string }
@@ -13,7 +14,9 @@ interface Props {
 export function generateMetadata({ params }: Props) {
 	const project = getProjectBySlug(params.slug)
 
-	if (!project) notFound()
+	if (!project) {
+		return notFound()
+	}
 
 	return {
 		title: `Max Comperatore - Proyecto | ${project.name}`,
@@ -36,6 +39,14 @@ export default function Project({ params }: Props) {
 
 	const [prevProjectSlug, nextProjectSlug] = getPrevAndNextProjectSlug(index)
 
+	const renderDescription = (text: string) => {
+		return text.split('\n').map((item, key) => {
+			return <React.Fragment key={key}>
+				<div style={{ marginBottom: '0.75rem' }}>{item}</div>
+			</React.Fragment>;
+		});
+	}
+
 	return (
 		<>
 			<main className={styles.wrapper}>
@@ -43,12 +54,12 @@ export default function Project({ params }: Props) {
 				<div className={styles.topWrapper}>
 					<section className={styles.detailsSection}>
 						<h1 className={styles.title}>{name}</h1>
-						<p>{description}</p>
+						<p>{renderDescription(description)}</p>
 						<div className={styles.tagsWrapper}>
 							{tags.map((tag) => (
 								<span key={tag} className={styles.tagPill}>
-									{tag}
-								</span>
+                                    {tag}
+                                </span>
 							))}
 						</div>
 						<div className={styles.linksWrapper}>
@@ -96,14 +107,26 @@ export default function Project({ params }: Props) {
 					className={styles.navLink}
 					href={`/project/${prevProjectSlug}`}
 				>
-					{t("prev")}
+					Anterior
+					<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+							 stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+							 className="icon icon-tabler icons-tabler-outline icon-tabler-chevron-left">
+						<path stroke="none" d="M0 0h24v24H0z" fill="none" />
+						<path d="M15 6l-6 6l6 6" />
+					</svg>
 				</NextLink>
 				<NextLink
 					data-text="Siguiente"
 					className={styles.navLink}
 					href={`/project/${nextProjectSlug}`}
 				>
-					{t("next")}
+					Siguiente
+					<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+							 stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+							 className="icon icon-tabler icons-tabler-outline icon-tabler-chevron-right">
+						<path stroke="none" d="M0 0h24v24H0z" fill="none" />
+						<path d="M9 6l6 6l-6 6" />
+					</svg>
 				</NextLink>
 			</nav>
 		</>

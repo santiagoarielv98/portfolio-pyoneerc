@@ -1,6 +1,18 @@
 # Portafolio de Max Comperatore
 
-Este proyecto es un fork del portafolio original de [Dresan](https://dresan.dev). Incluye varias mejoras y personalizaciones para satisfacer necesidades específicas.
+Este proyecto es un fork del [portafolio original](https://github.com/dresandev/dresan.dev) de [Dresan](https://dresan.dev). 
+Permiso para usar y modificar el código fuente fue otorgado por el autor original en el día 16 de julio de 2024.
+
+Incluye varias mejoras y personalizaciones para satisfacer necesidades específicas.
+
+Basado en el [Geist Design System](https://vercel.com/geist/introduction) de [Vercel](https://vercel.com).
+
+![GitHub repo size](https://img.shields.io/github/repo-size/pyoneerC/maxcomperatore.com)
+![Libraries.io dependency status for GitHub repo](https://img.shields.io/librariesio/github/pyoneerc/maxcomperatore.com)
+![Website](https://img.shields.io/website?url=https%3A%2F%2Fmaxcomperatore.com)
+![CodeFactor Grade](https://img.shields.io/codefactor/grade/github/pyoneerc/maxcomperatore.com)
+[![Codacy Badge](https://app.codacy.com/project/badge/Grade/3dddd0ee9efc48beb98129c150a57a85)](https://app.codacy.com/gh/pyoneerC/maxcomperatore.com/dashboard?utm_source=gh&utm_medium=referral&utm_content=&utm_campaign=Badge_grade)
+![GitHub License](https://img.shields.io/github/license/pyoneerc/maxcomperatore.com)
 
 ## Tabla de Contenidos
 
@@ -11,11 +23,11 @@ Este proyecto es un fork del portafolio original de [Dresan](https://dresan.dev)
 - [Licencia](#licencia)
 - [Contacto](#contacto)
 
-![Captura de Pantalla en IPHONE X](/public/assets/readme/iphonex.png)
+![Captura de Pantalla en IPHONE X](/public/assets/readme/iphonex.avif)
 ---
-![Captura de Pantalla en MAC](/public/assets/readme/mac.png)
+![Captura de Pantalla en MAC](/public/assets/readme/mac.avif)
 ---
-![Captura de Pantalla en TABLET](/public/assets/readme/tablet.png)
+![Captura de Pantalla en TABLET](/public/assets/readme/tablet.avif)
 
 ## Estructura del Proyecto
 
@@ -90,3 +102,5 @@ Este proyecto está licenciado bajo la Licencia MIT.
 ## Contacto
 
 Para cualquier consulta, por favor contactar a [maxcomperatore@gmail.com](mailto:maxcomperatore@gmail.com).
+
+Hecho con ❤️ por Max Comperatore.

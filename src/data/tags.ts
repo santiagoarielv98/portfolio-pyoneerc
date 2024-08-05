@@ -15,4 +15,13 @@ export const Tag = {
 	dotNet: ".NET",
 	fastAPI: "FastAPI",
 	flask: "Flask",
+	blueprints: "Blueprints",
+	nextjs: "Next.js",
+	typescript: "TypeScript",
+	css: "CSS",
+	html: "HTML",
+	javascript: "JavaScript",
+	powershell: "PowerShell",
+	cli: "CLI",
+	rust: "Rust",
 }

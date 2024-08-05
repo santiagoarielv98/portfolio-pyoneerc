@@ -14,5 +14,5 @@ export const SkillsSection = () => {
 				))}
 			</div>
 		</section>
-	);
+	)
 }

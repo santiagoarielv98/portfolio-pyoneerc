@@ -1,6 +1,7 @@
 import { Dialog, DialogContent, DialogTitle, DialogTrigger } from "~/components/Ui/Dialog"
-import { ContactForm } from "~/components/ContactForm"
 import { useTranslations } from "next-intl"
+import ContactForm from "../ContactForm/ContactForm"
+
 
 interface Props {
 	trigger: React.ReactNode

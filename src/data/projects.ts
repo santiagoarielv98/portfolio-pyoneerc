@@ -4,35 +4,35 @@ import { Tag } from "./tags"
 export const projectMetadata = {
 	mercadolibrepricechart: {
 		slug: "mercadolibrepricechart",
-		name: "Mercado Libre Price Chart",
+		name: "Mercadix",
 	},
 	monedasAPI: {
 		slug: "monedasAPI",
-		name: "Monedas API",
+		name: "ArgentoFX",
 	},
-	hillclimbracing: {
-		slug: "hillclimbracing",
-		name: "Hill Climb Racing",
+	TheDungeon: {
+		slug: "the-dungeon",
+		name: "Ephemera",
 	},
 }
 
 export const coverProjects: CoverProject[] = [
 	{
 		...projectMetadata.mercadolibrepricechart,
-		imageUrl: `/assets/images/projects/cover/mercadolibre.webp`,
-		description: "Visualiza un histograma detallado de los precios de productos en MercadoLibre.",
+		imageUrl: `/assets/images/projects/cover/mercadolibre.avif`,
+		description: "Visualiza un histograma de precios en vivo para cualquier producto en MercadoLibre.",
 	},
 	{
 		...projectMetadata.monedasAPI,
-		imageUrl: `/assets/images/projects/cover/monedasapi.webp`,
+		imageUrl: `/assets/images/projects/cover/monedasapi.avif`,
 		description:
-			"API RESTful para obtener los precios más recientes de divisas extranjeras en Argentina.",
+			"API RESTful para obtener cotizaciones de divisas extranjeras en vivo, en Argentina.",
 	},
 	{
-		...projectMetadata.hillclimbracing,
-		imageUrl: `/assets/images/projects/cover/hcr.webp`,
+		...projectMetadata.TheDungeon,
+		imageUrl: `/assets/images/projects/cover/thedungeon.avif`,
 		description:
-			"Hill Climb Racing recreado en Unity.",
+			"Juego de puzzles que presenta acertijos desafiantes en un entorno maquiavélico."
 	},
 ]
 
@@ -41,16 +41,16 @@ export const projects = [
 		...projectMetadata.mercadolibrepricechart,
 		index: 0,
 		description:
-			"Aplicación web que permite consultar precios de productos en MercadoLibre y visualizarlos en un histograma. Utiliza web scraping para obtener los precios, la API monedas-api (desarrollada por mí) para el tipo de cambio actualizado a dólares, y Matplotlib para generar gráficos claros y concisos que representan eficazmente la variabilidad de los precios.",
+			"Aplicación web que permite consultar precios de productos en MercadoLibre y visualizarlos en un histograma.\n Utiliza web scraping para obtener los precios, la API ArgentoFX (desarrollada por mí) para el tipo de cambio actualizado a dólares, y Matplotlib para generar gráficos claros y concisos que representan eficazmente la variabilidad de los precios.",
 		mobileImages:
 			[
-				`/assets/images/projects/mercadolibre/mercadolibrepcmobile.png`,
-				`/assets/images/projects/mercadolibre/mercadolibrepchistograma.png`
+				`/assets/images/projects/mercadolibre/mercadolibrepcmobile.avif`,
+				`/assets/images/projects/mercadolibre/mercadolibrepchistograma.avif`
 			],
 		desktopImages:
 			[
-				`/assets/images/projects/mercadolibre/mercadolibrepcmac.png`,
-				`/assets/images/projects/mercadolibre/mercadolibrepcdiagrama.png`
+				`/assets/images/projects/mercadolibre/mercadolibrepcmac.avif`,
+				`/assets/images/projects/mercadolibre/mercadolibrepcdiagrama.avif`
 			],
 		links: [
 			{
@@ -72,20 +72,20 @@ export const projects = [
 		...projectMetadata.monedasAPI,
 		index: 1,
 		description:
-			"Monedas API es una aplicación robusta desarrollada con FastAPI, diseñada para proporcionar tasas de cambio de divisas en tiempo real mediante scraping de sitios web financieros. La API se enfoca principalmente en varias tasas de cambio en Argentina, incluyendo USD (blue, oficial, MEP, CCL), Euro, Real Brasileño, Peso Chileno, Peso Uruguayo, y más. También ofrece una función de conversión para convertir montos entre las monedas soportadas.",
+			"Una servicio web robusto y dinámico desarrollado con FastAPI, que proporciona tasas de cambio de divisas en tiempo real mediante extracción de datos de sitios web financieros.\n Se centra en tasas de cambio en Argentina, incluyendo USD (blue, oficial, MEP, CCL), Euro, Real Brasileño y más. \nDesplegada en un servidor web, ofrece acceso remoto a través de solicitudes RESTful.",
 		mobileImages:
 			[
-				`/assets/images/projects/monedasapi/json.png`,
+				`/assets/images/projects/monedasapi/json.avif`,
 			],
 		desktopImages:
 			[
-				`/assets/images/projects/monedasapi/mac.png`,
-				`/assets/images/projects/monedasapi/architecturediagram.png`
+				`/assets/images/projects/monedasapi/mac.avif`,
+				`/assets/images/projects/monedasapi/architecturediagram.avif`
 			],
 		links: [
 			{
 				label: "Visitar documentación",
-				url: "https://fastapiproject-1-eziw.onrender.com/docs",
+				url: "https://maxcomperatore.online/docs",
 			},
 			{
 				label: "Ver código",
@@ -99,33 +99,34 @@ export const projects = [
 		],
 	},
 	{
-		...projectMetadata.hillclimbracing,
+		...projectMetadata.TheDungeon,
 		index: 2,
 		description:
-			"Este proyecto es una reimplementación del popular juego móvil Hill Climb Racing, construido con el motor de juegos Unity. Tiene como objetivo recrear la adictiva experiencia de juego con características y mejoras adicionales. Sumérgete en un mundo con un nivel hecho a mano, coleccionables, efectos de sonido inmersivos, una interfaz intuitiva y una física deliciosamente inestable diseñada para desafiar y entretener.",
+			"Te encuentras atrapado en un lugar que parece una oficina, pero algo no cuadra. El ambiente es perturbador.\n Con sólo tu ingenio y algunas herramientas esporádicas, debes enfrentarte a una serie de acertijos y rompecabezas diseñados para poner a prueba tu astucia.\n ¿Serás capaz de encontrar una salida a esta pesadilla?",
 		mobileImages:
 			[
-				`/assets/images/projects/hillclimbracing/falling.png`,
+				`/assets/images/projects/thedungeon/library.avif`,
+				`/assets/images/projects/thedungeon/thedungeon.gif`
 			],
 		desktopImages: [
-			`/assets/images/projects/hillclimbracing/mac.png`,
-			`/assets/images/projects/hillclimbracing/hcr.gif`,
-			`/assets/images/projects/hillclimbracing/unity.png`
+			`/assets/images/projects/thedungeon/streamer.avif`,
+			`/assets/images/projects/thedungeon/pistol.avif`,
 		],
 		links: [
 			{
-				label: "Juega en tu navegador",
-				url: "https://pyoneerc1.itch.io/hill-climb-racing-recreation",
+				label: "Ver en itch.io",
+				url: "https://pyoneerc1.itch.io/the-dungeon",
 			},
 			{
-				label: "Ver código",
-				url: "https://github.com/pyoneerC/Hill-Climb-Racing",
+				label: "Ver vídeos del juego",
+				url: "https://www.youtube.com/playlist?list=PLRFx0xkqiuISCnQBv0af1v3Kn7fOHcoLT",
 			},
 		],
 		tags:
 		[
-			Tag.unity,
-			Tag.cSharp
+			Tag.unrealEngine,
+			Tag.blueprints,
+			Tag.cPlusPlus
 		],
 	},
 ]

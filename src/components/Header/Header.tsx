@@ -8,6 +8,7 @@ import { MenuMobile } from "~/components/MenuMobile"
 import { ContactDialog } from "~/components/ContactDialog"
 import styles from "./Header.module.css"
 import { useTranslations } from "next-intl"
+import { ThemeSwitcher } from "../ThemeSwitcher"
 
 export const Header = () => {
 	const t = useTranslations("Header")
@@ -36,6 +37,7 @@ export const Header = () => {
 							</Button>
 						}
 					/>
+					< ThemeSwitcher />
 					< LanguageSwitcher />
 				</div>
 				<MenuMobile />
