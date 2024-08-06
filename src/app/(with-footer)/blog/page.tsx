@@ -6,8 +6,6 @@ import ScrollToTopButton from "~/components/ScrollToTopButton/ScrollToTopButton"
 import Link from "next/link"
 import React from "react"
 
-export const dynamic = "force-dynamic"
-
 export const metadata = {
 	title: "Max Comperatore - Blog",
 	description: "Tutoriales sobre desarrollo de software y videojuegos.",
